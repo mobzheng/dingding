@@ -7,6 +7,7 @@ import threading
 
 class app():
     def __init__(self):
+        sg.theme('light brown 8')
         self.download_list = []
         self.data = [[]]
         self.started = False
